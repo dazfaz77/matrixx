@@ -5,13 +5,13 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const katakana = 'loVE';
+const katakana = 'loVEEE';
 const latin = '';
-const nums = 'LOve';
+const nums = 'LOoooooooooove';
 
 const alphabet = katakana + latin + nums;
 
-const fontSize = 16;
+const fontSize = 20;
 const columns = canvas.width/fontSize;
 
 const rainDrops = [];
@@ -25,7 +25,7 @@ const draw = () => {
     context.fillStyle = 'rgba(0, 0, 0, 0.05)';
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    context.fillStyle = '#0F0';
+    context.fillStyle = '#1F0';
     context.font = fontSize + 'px monospace';
 
     for(let i = 0; i < rainDrops.length; i++)
@@ -40,4 +40,4 @@ const draw = () => {
     }
 };
 
-setInterval(draw, 40);
+setInterval(draw, 45);
