@@ -85,5 +85,10 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      a{
+        text-decoration:none ;
+        color: rgb(232, 10, 10);
+         }
   
  
